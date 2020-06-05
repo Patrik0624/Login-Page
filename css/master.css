@@ -119,6 +119,7 @@ border-spacing: 0;
     background-color: white;
     padding: 3rem;
     width: 40vw;
+    max-width: 28rem;
     border-radius: 10px;
     height: 28rem;
     position: absolute;
@@ -137,6 +138,7 @@ border-spacing: 0;
     font-weight: 500;
     opacity: 0.7;
     width: calc(40vw - 6rem);
+    max-width: 22rem;
     border-bottom: 3px solid white;
   }
   input:focus {
@@ -162,6 +164,7 @@ border-spacing: 0;
   }
   button {
     width: calc(40vw - 6rem);
+    max-width: 22rem;
     border: none;
     text-transform: uppercase;
     font-size: 0.7rem;
@@ -207,4 +210,19 @@ border-spacing: 0;
   footer a {
     text-decoration: none;
     color: #6200EA;
+  }
+/*==========MEDIA QUERY==========*/
+  @media screen and (min-width: 1700px) {
+    .list {
+      font-size: 2rem;
+    }
+    i {
+      padding: 0.5rem;
+      height: 2.4rem;
+      width: 2.4rem;
+      font-size: 1.4rem;
+    }
+    .fa-grin-stars {
+      padding-left: 0.55rem;
+    }
   }
