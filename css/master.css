@@ -52,7 +52,7 @@ border-spacing: 0;
 /*==========LEFT BOX==========*/
   .left-box {
     width: 50%;
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 6rem);
     background-color: #6200EA;
     color: white;
     float: left;
@@ -82,7 +82,7 @@ border-spacing: 0;
     font-weight: 600;
     line-height: 5rem;
     margin: auto;
-    margin-top: calc(50vh - 20rem);
+    margin-top: calc(50vh - 17rem);
   }
   i {
     color: #6200EA;
@@ -100,14 +100,14 @@ border-spacing: 0;
 /*==========RIGHT BOX==========*/
   .right-box {
     width: 50%;
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 6rem);
     float: right;
     position: relative;
   }
   .right-box::before {
     content: "";
     width: 100%;
-    height: calc(100vh - 8rem);
+    height: calc(100vh - 6rem);
     position: absolute;
     top: 0;
     left: 0;
@@ -186,4 +186,25 @@ border-spacing: 0;
   }
   button[name=signup]:focus, button[name=login]:focus {
     outline: none;
+  }
+/*==========FOOTER==========*/
+  footer {
+    background-color: #211138;
+    width: 100%;
+    height: 6rem;
+    display: table;
+    color: #B2ACBA;
+    text-align: center;
+  }
+  footer p {
+    display: table-cell;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
+  footer a {
+    text-decoration: none;
+    color: #6200EA;
   }
