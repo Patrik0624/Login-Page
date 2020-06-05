@@ -1,0 +1,98 @@
+/*==========CSS RESET==========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+/*==========OTHER==========*/
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Montserrat";
+  }
+/*==========LEFT BOX==========*/
+  .left-box {
+    width: 50%;
+    height: calc(100vh - 8rem);
+    background-color: #6200EA;
+    color: white;
+  }
+  .logo-text {
+    padding: 1rem 2rem;
+  }
+  img {
+    width: 3.1rem;
+    border: 2.5px solid white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  h1 {
+    display: inline-block;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 2rem;
+    margin-left: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+  }
+  .list {
+    display: table;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin: auto;
+    margin-top: calc(50vh - 20rem);
+  }
+  i {
+    color: #6200EA;
+    background-color: white;
+    padding: 0.5rem;
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  .fa-hands-helping {
+    padding-left: 0.3rem;
+  }
